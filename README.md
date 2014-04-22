@@ -1,4 +1,0 @@
-inicio
-======
-
-inicio con django
