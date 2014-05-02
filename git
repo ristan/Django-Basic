@@ -71,3 +71,12 @@ Reemplaza master por la rama a la que quieres enviar tus cambios.
 Si no has clonado un repositorio ya existente y quieres conectar tu repositorio local a un repositorio remoto, usa
 git remote add origin <server>
 Ahora podrás subir tus cambios al repositorio remoto seleccionado.
+
+--------------------------------------------------------------------------
+
+Actualizar la copia en github
+Para actualizar tu repositorio local al commit más nuevo, ejecuta 
+git pull
+en tu directorio de trabajo para bajar y fusionar los cambios remotos.
+
+
