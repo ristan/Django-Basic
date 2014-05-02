@@ -1,5 +1,50 @@
-git
+Instalacion git y apuntes
 
+
+Instalacion y configuracion con github
+
+1.- Primero que nada descargar git desde su pagina principal y terminado esto 
+    comenzar con la instalación.
+    
+2.- una vez instalado configurar con los siguietnes comandos.
+
+    .- descargar puttygen desde el siguiente enlace
+      http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+      
+    .- generar una llave SSH
+        ssh-rsa ....
+
+    .- agregarla a la pagina de github 
+      https://github.com/settings/ssh
+      
+Create una cuenta en GitHub y crea un repositorio. Después de crear el repositorio 
+en GitHub obtendrás una descripción de todos los comandos que necesitás ejecutar 
+para subir tu proyecto a GitHub. Seguí las instrucciones.
+
+Las instrucciones deberían ser similares a las siguientes:
+
+Global setup:
+ Set up git
+  git config --global user.name "tu nombre"
+  git config --global user.email tu.email@gmail.com
+      
+proximos pasos:
+  mkdir gitbook 
+  cd gitbook
+  git init
+  touch README
+  git add README
+  git commit -m 'primer commit'
+  git remote add origin git@github.com:vogella/gitbook.git
+  git push -u origin master
+      
+Ya contás con un repo?
+  cd repo_existente
+  git remote add origin git@github.com:vogella/gitbook.git
+  git push -u origin master
+
+
+--------------------------------------------------------------------------
 algo desde la guia sencilla
 http://rogerdudler.github.io/git-guide/index.es.html
 
